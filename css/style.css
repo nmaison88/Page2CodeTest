@@ -1,0 +1,167 @@
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+.main-color-bg {
+  color: red;
+}
+#engagementperc {
+  float: left;
+}
+.bg-th{
+  background: #7A7A7A;
+
+}
+.svg {
+  width: 100px;
+  height: auto;
+}
+
+td {
+  text-align: center;
+}
+
+th {
+  font-size: 0.7rem;
+}
+
+.progress {
+  width: 100%;
+  position: relative;
+  padding: 0px;
+  margin: 0;
+  align-content: center;
+
+  height: 30px;
+}
+
+#percent {
+  position: absolute;
+  left: 50%;
+}
+
+.bar {
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  background-color: #9ac94f;
+  /* width: 10%; */
+  display: inline-block;
+  position: relative;
+  color: white;
+  vertical-align: baseline;
+}
+
+.bar2 {
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  background-color: #fcd024;
+  /* width: 10%; */
+  display: inline-block;
+  position: relative;
+  color: white;
+  vertical-align: baseline;
+}
+.bar3 {
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  background-color: #eb6b32;
+  /* width: 70%; */
+  display: inline-block;
+  position: relative;
+  color: white;
+  vertical-align: baseline;
+}
+/* Green Bar sections will dynamically change */
+#item1Grn {
+  width: 82%;
+}
+#item2Grn {
+  width: 94%;
+}
+#item3Grn {
+  width: 86%;
+}
+#item4Grn {
+  width: 83%;
+}
+#item5Grn {
+  width: 82%;
+}
+#item6Grn {
+  width: 74%;
+}
+#item7Grn {
+  width: 70%;
+}
+
+/* yellow Bar sections will dynamically change */
+#item1Yel {
+  width: 9%;
+}
+#item2Yel {
+  width: 5%;
+}
+#item3Yel {
+  width: 9%;
+}
+#item4Yel {
+  width: 6%;
+}
+#item5Yel {
+  width: 10%;
+}
+#item6Yel {
+  width: 14%;
+}
+#item7Yel {
+  width: 10%;
+}
+
+/* red Bar sections will dynamically change */
+#item1Red {
+  width: 9%;
+}
+#item2Red {
+  width: 1%;
+}
+#item3Red {
+  width: 5%;
+}
+#item4Red {
+  width: 10%;
+}
+#item5Red {
+  width: 8%;
+}
+#item6Red {
+  width: 12%;
+}
+#item7Red {
+  width: 19%;
+}
+
+.danger {
+  color: red;
+}
+.success {
+  color: green;
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 0px;
+  padding: 0;
+  margin: 0;
+  background: red;
+  height: 30px;
+  width: 100%;
+}
+
+#footer-content {
+  color: white;
+  background-color: black;
+}
