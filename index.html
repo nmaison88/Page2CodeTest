@@ -1,25 +1,26 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Perceptyx-Employee Engagement</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../../../favicon.ico">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-    <!-- FontAwesome import -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  </head>
+  <title>Perceptyx-Employee Engagement</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- FontAwesome import -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+</head>
 
 <body>
-    <div class="container-fluid">
+  <div class="container-fluid">
 
     <h1 class="main-color-bg ml-5 pl-5 py-5  ">Employee Engagement</h1>
     <table class="table table-striped w-75 mx-auto table-bordered ">
@@ -27,8 +28,9 @@
         <tr class="d-flex">
           <th class="col-4">
             <div id='engagementperc' class="svg"><svg viewBox="-5 -7 45 45">
-                <text id="empengperc" font-family="sans-serif" font-size="9px" x="50%" y="50%" text-anchor="middle">82% .</text>
-        
+                <text id="empengperc" font-family="sans-serif" font-size="9px" x="50%" y="50%" text-anchor="middle">82%
+                  .</text>
+
                 <path d="M18 2.0845
                         a 15.9155 15.9155 0 0 1 0 31.831
                         a 15.9155 15.9155 0 0 1 0 -31.831"
@@ -37,11 +39,12 @@
                                 a 15.9155 15.9155 0 0 1 0 31.831
                                 a 15.9155 15.9155 0 0 1 0 -31.831"
                   fill="none" stroke="#9AC94F" ; stroke-width="6" ; stroke-dasharray="82, 100" />
-        
+
               </svg></div>Engagement is a combination of perceptions that have a positive impact on behavior. These
-            perceptions include satisfaction, commitment, pride, loyalty, a strong sense of personal responsibility, and a
+            perceptions include satisfaction, commitment, pride, loyalty, a strong sense of personal responsibility,
+            and a
             willingness to be an advocate for the organization.
-        
+
           </th>
           <th class="text-center  align-middle col-5 "><i class="fas fa-users fa-3x icn main-color-bg"></i>
             <div class="borderboxtitle">My Team</div>
@@ -61,112 +64,7 @@
         </tr>
       </thead>
       <tbody>
-      <!-- Start of Jquery Dynamic data Below Commented section is hardcoded data if not using Dynamic data from Json -->
-      
-      <!-- <tr class="bg-dark text-light d-flex">
-                  <td class="surveyQuestion col-4">Employee Engagement</td>
-              
-                  <td class="col-5"><ul class="progress  text-center">
-                      <span id="percent"></span>
-                      <li  id="item1Grn" class="bar">82%
-                      <li id="item1Yel" class="bar2">9%
-                      <li id="item1Red" class="bar3">9%             
-              
-                    </ul></td>
-                  <td class=" col-1 success">80%</td>
-                  <td class=" col-1 danger">86%</td>
-                  <td class=" col-1 danger">87%</td>
-                </tr>
-      
-          <tr class="d-flex lightgrey">
-                  <td class="surveyQuestion col-4">I am willing to contribute a great deal of effort beyond what is normally expected to help Perceptyx succeed.</td>
-              
-                  <td class="col-5"><ul class="progress  text-center">
-                      <span id="percent"></span>
-                      <li  id="item2Grn" class="bar">94%
-                      <li id="item2Yel" class="bar2">5%
-                      <li id="item2Red" class="bar3">1%             
-              
-                    </ul></td>
-                  <td class=" col-1 success">93%</td>
-                  <td class=" col-1 danger">95%</td>
-                  <td class=" col-1 danger">95%</td>
-                </tr>
-          <tr class="d-flex">
-                  <td class="surveyQuestion col-4">I am proud to work for Perceptyx.</td>
-              
-                  <td class="col-5"><ul class="progress  text-center">
-                      <span id="percent"></span>
-                      <li  id="item3Grn" class="bar">86%
-                      <li id="item3Yel" class="bar2">9%
-                      <li id="item3Red" class="bar3">5%             
-              
-                    </ul></td>
-                  <td class=" col-1 success">85%</td>
-                  <td class=" col-1 danger">90%</td>
-                  <td class=" col-1 danger">91%</td>
-                </tr>
-          
-          <tr class="d-flex lightgrey">
-                  <td class="surveyQuestion col-4">I can see a clear link between my work and Perceptyx objectives.</td>
-              
-                  <td class="col-5"><ul class="progress  text-center">
-                      <span id="percent"></span>
-                      <li  id="item4Grn" class="bar">83%
-                      <li id="item4Yel" class="bar2">6%
-                      <li  id="item4Red" class="bar3">10%             
-              
-                    </ul></td>
-                  <td class=" col-1 success">79%</td>
-                  <td class=" col-1 danger">85%</td>
-                  <td class=" col-1 danger">86%</td>
-                  </tr>
-          
-          <tr class="d-flex">
-                  <td class="surveyQuestion col-4">I intend to stay employed at Perceptyx for at least the next twelve months.</td>
-              
-                  <td class="col-5"><ul class="progress  text-center">
-                      <span id="percent"></span>
-                      <li  id="item5Grn" class="bar">82%
-                      <li  id="item5Yel" class="bar2">10%
-                      <li id="item5Red" class="bar3">8%             
-              
-                    </ul></td>
-                  <td class=" col-1 danger">89%</td>
-                  <td class=" col-1 danger">88%</td>
-                  <td class=" col-1 danger">89%</td>
-                </tr>
-          
-          <tr class="d-flex lightgrey">
-                  <td class="surveyQuestion col-4">I would refer friends or family members to Perceptyx as a good place to work.</td>
-              
-                  <td class="col-5"><ul class="progress  text-center">
-                      <span id="percent"></span>
-                      <li  id="item6Grn" class="bar">74%
-                      <li  id="item6Yel" class="bar2">14%
-                      <li  id="item6Red" class="bar3">12%             
-              
-                    </ul></td>
-                  <td class=" col-1 success">68%</td>
-                  <td class=" col-1 danger">83%</td>
-                  <td class=" col-1 danger">84%</td>
-                </tr>
-          
-          <tr class="d-flex">
-                  <td class="surveyQuestion col-4">The company really inspires the very best in me in the way of job performance.</td>
-              
-                  <td class="col-5"><ul class="progress  text-center">
-                      <span id="percent"></span>
-                      <li  id="item7Grn" class="bar">74%
-                      <li  id="item7Yel" class="bar2">14%
-                      <li  id="item7Red" class="bar3">12%             
-              
-                    </ul></td>
-                  <td class=" col-1 success">62%</td>
-                  <td class=" col-1 danger">83%</td>
-                  <td class=" col-1 danger">84%</td>
-                </tr> -->
-    
+
       </tbody>
     </table>
     <footer class="site-footer">
@@ -179,6 +77,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
-<script src="js/jquery.js"></script>
+  <script src="js/jquery.js"></script>
 </body>
+
 </html>
